@@ -28,6 +28,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support:design:26.+'
+    //butterknife注解
     compile 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    //RecycleView适配器
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22'
 }
