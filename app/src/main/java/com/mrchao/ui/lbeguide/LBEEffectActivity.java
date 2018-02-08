@@ -41,7 +41,7 @@ public class LBEEffectActivity extends BaseActivity {
         WelcompagerTransformer transformer = new WelcompagerTransformer();
         mVp.setPageTransformer(true, transformer);
 
-        mVp.setOnPageChangeListener(transformer);
+        mVp.addOnPageChangeListener(transformer);
     }
 
     class WelcomePagerAdapter extends FragmentPagerAdapter {
@@ -64,7 +64,6 @@ public class LBEEffectActivity extends BaseActivity {
         public int getCount() {
             return 3;
         }
-
 
     }
 }

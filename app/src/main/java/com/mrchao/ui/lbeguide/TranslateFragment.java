@@ -11,7 +11,8 @@ public class TranslateFragment extends Fragment {
 	
 	@Override
 	@Nullable
-	public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+	public View onCreateView(LayoutInflater inflater,
+							 @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 		
 		Bundle bundle = getArguments();
 		int layoutId = bundle.getInt("layoutId");

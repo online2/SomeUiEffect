@@ -1,19 +1,14 @@
 package com.mrchao.ui.lbeguide;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.HorizontalScrollView;
 import android.widget.ScrollView;
-
 public class MyScrollView extends HorizontalScrollView {
-
     public MyScrollView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
-
-
     /**
      * 返回发false直接把在事件分发的时候直接拦截了，
      * 这样做可以使得当滑动位置是在MyScrollView区域时，
