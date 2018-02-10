@@ -1,9 +1,9 @@
 做这个项目原因，因为之前在做项目过程中都是零零碎碎的使用到这些东西，所以现在利用空闲的时间，
-把这些使用过的东西进行大整合，顺便复习回顾，巩固，加强记忆。
-1:添加平行空间引导页实现：
-    效果图:
+把这些使用过的东西进行大整合，顺便复习回顾，巩固，加强记忆。<br>
+1:添加平行空间引导页实现：<br>
+    效果图:<br>
     ![image](https://github.com/online2/SomeUiEffect/blob/openMaster/images/lbeguide.gif)
-    博客地址:
-    http://blog.csdn.net/lfc18606951877/article/details/79291162
-2:添加CoordinatorLayout+ViewPage+TabLayout实现微博个人中心页面效果
-    ![image](https://github.com/online2/SomeUiEffect/blob/openMaster/images/stickynav.gif)
+    博客地址:<br>
+    http://blog.csdn.net/lfc18606951877/article/details/79291162<br>
+2:添加CoordinatorLayout+ViewPage+TabLayout实现微博个人中心页面效果<br>
+    ![image](https://github.com/online2/SomeUiEffect/blob/openMaster/images/stickynav.gif)<br>
