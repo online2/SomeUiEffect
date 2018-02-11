@@ -8,6 +8,7 @@ import android.view.View;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.mrchao.ui.base.BaseActivity;
 import com.mrchao.ui.coordinatorlayout.CoordinatorActivity;
+import com.mrchao.ui.custombehavior.CustomBehaviorActivity;
 import com.mrchao.ui.lbeguide.LBEEffectActivity;
 
 import java.util.ArrayList;
@@ -35,6 +36,7 @@ public class MainActivity extends BaseActivity {
     private void initData() {
         listItem.add("平行空间引导页效果");
         listItem.add("CoordinatorLayout效果学习");
+        listItem.add("自定义Behavior");
 }
 
     private void initView() {
@@ -58,6 +60,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case 1:
                 intent = new Intent(mActivity, CoordinatorActivity.class);
+                break;
+            case 2:
+                intent = new Intent(mActivity, CustomBehaviorActivity.class);
                 break;
         }
         startActivity(intent);
