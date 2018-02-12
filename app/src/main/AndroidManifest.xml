@@ -19,6 +19,7 @@
         <activity android:name=".lbeguide.LBEEffectActivity"/>
         <activity android:name=".coordinatorlayout.CoordinatorActivity"/>
         <activity android:name=".custombehavior.CustomBehaviorActivity"/>
+        <activity android:name=".animator.AnimatorActivity"/>
     </application>
 
 </manifest>

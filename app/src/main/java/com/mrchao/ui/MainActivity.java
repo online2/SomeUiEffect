@@ -6,6 +6,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
+import com.mrchao.ui.animator.AnimatorActivity;
 import com.mrchao.ui.base.BaseActivity;
 import com.mrchao.ui.coordinatorlayout.CoordinatorActivity;
 import com.mrchao.ui.custombehavior.CustomBehaviorActivity;
@@ -37,6 +38,7 @@ public class MainActivity extends BaseActivity {
         listItem.add("平行空间引导页效果");
         listItem.add("CoordinatorLayout效果学习");
         listItem.add("自定义Behavior");
+        listItem.add("属性动画效果");
 }
 
     private void initView() {
@@ -63,6 +65,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case 2:
                 intent = new Intent(mActivity, CustomBehaviorActivity.class);
+                break;
+            case 3:
+                intent = new Intent(mActivity, AnimatorActivity.class);
                 break;
         }
         startActivity(intent);
