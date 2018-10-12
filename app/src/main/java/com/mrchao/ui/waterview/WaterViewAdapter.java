@@ -23,8 +23,7 @@ public class WaterViewAdapter extends AbsWaterViewAdapter<Water> {
     @Override
     protected void convert(View view, Water water, int position) {
         TextView tv_water = getView(view, R.id.tv_water);
-        tv_water.setText("测试" + position);
-
+        tv_water.setText(position+"");
         getView(view,R.id.tv_water).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

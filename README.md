@@ -20,3 +20,9 @@
 * 4:炫酷的属性动画效果集合 <br> <br> *
     效果图:<br> <br>
     ![image](https://github.com/online2/SomeUiEffect/blob/openMaster/images/animator.gif) <br> <br>
+
+* 4:蚂蚁森林能量浮动效果 <br> <br> *
+    在别人的基础上做了封装处理，继承FrameLayout，<br> <br>
+    添加能量球布局像设置Adapter一样继承AbsWaterViewAdapter即可，操作简便明了<br> <br> *
+        效果图:<br> <br>
+        ![image](https://github.com/online2/SomeUiEffect/blob/openMaster/images/water.gif) <br> <br>
