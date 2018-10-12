@@ -11,6 +11,7 @@ import com.mrchao.ui.base.BaseActivity;
 import com.mrchao.ui.coordinatorlayout.CoordinatorActivity;
 import com.mrchao.ui.custombehavior.CustomBehaviorActivity;
 import com.mrchao.ui.lbeguide.LBEEffectActivity;
+import com.mrchao.ui.waterview.WaterViewActivity;
 
 import java.util.ArrayList;
 
@@ -39,6 +40,7 @@ public class MainActivity extends BaseActivity {
         listItem.add("CoordinatorLayout效果学习");
         listItem.add("自定义Behavior");
         listItem.add("属性动画效果");
+        listItem.add("蚂蚁森林能量浮动效果");
 }
 
     private void initView() {
@@ -68,6 +70,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case 3:
                 intent = new Intent(mActivity, AnimatorActivity.class);
+                break;
+            case 4:
+                intent = new Intent(mActivity, WaterViewActivity.class);
                 break;
         }
         startActivity(intent);

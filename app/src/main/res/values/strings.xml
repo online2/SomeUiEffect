@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SomeUiEffect</string>
+
+    <string name="spd"/>
+    <string name="start_y"/>
+    <string name="isUp"/>
 </resources>

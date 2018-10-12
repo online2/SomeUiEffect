@@ -20,6 +20,7 @@
         <activity android:name=".coordinatorlayout.CoordinatorActivity"/>
         <activity android:name=".custombehavior.CustomBehaviorActivity"/>
         <activity android:name=".animator.AnimatorActivity"/>
+        <activity android:name=".waterview.WaterViewActivity" />
     </application>
 
 </manifest>
