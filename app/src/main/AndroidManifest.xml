@@ -21,6 +21,7 @@
         <activity android:name=".custombehavior.CustomBehaviorActivity"/>
         <activity android:name=".animator.AnimatorActivity"/>
         <activity android:name=".waterview.WaterViewActivity" />
+        <activity android:name=".headparallx.HeadPeaxallActivity" />
     </application>
 
 </manifest>
