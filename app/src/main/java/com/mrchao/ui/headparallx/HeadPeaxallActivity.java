@@ -1,5 +1,7 @@
 package com.mrchao.ui.headparallx;
 
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -32,12 +34,14 @@ public class HeadPeaxallActivity extends BaseActivity {
         return R.layout.ac_head_parallax;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public void init() {
         MyPageAdapter adapter = new MyPageAdapter(getSupportFragmentManager());
         mVpView.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(mTlView));
         mTlView.setupWithViewPager(mVpView);
         mVpView.setAdapter(adapter);
+        mVpView.setNestedScrollingEnabled(false);
     }
 
 

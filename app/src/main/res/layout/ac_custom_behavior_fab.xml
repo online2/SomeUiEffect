@@ -15,16 +15,26 @@
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@color/colorAccent">
+        android:layout_height="148dp">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="148dp"
             app:layout_collapseMode="none"
             app:layout_scrollFlags="scroll|enterAlways">
 
+            <ImageView
+                android:src="@drawable/common_logo"
+                app:layout_behavior="com.mrchao.ui.custombehavior.CustomBehaviorTwo"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="标题"
+                android:textColor="#000000"
+                android:textSize="25sp"/>
+
             <TextView
+                android:layout_gravity="bottom"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:gravity="center"

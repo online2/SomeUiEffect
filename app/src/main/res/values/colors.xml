@@ -10,5 +10,6 @@
     <color name="bg2_blue">#6DB3ff</color>
     <!--     <color name="bg2_blue">#6DB3ff</color> -->
     <color name="bg3_green">#6DB311</color>
-
+    <color name="transparent">#00000000</color>
+    <color name="base_shallow_black">#818181</color>
 </resources>

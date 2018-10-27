@@ -22,6 +22,15 @@ public class CustomBehaviorTwo extends CoordinatorLayout.Behavior<View> {
         super(context, attrs);
     }
 
+    /**
+     *
+     * @param coordinatorLayout
+     * @param child
+     * @param directTargetChild
+     * @param target
+     * @param nestedScrollAxes
+     * @return
+     */
     @Override
     public boolean onStartNestedScroll(CoordinatorLayout coordinatorLayout, View child, View directTargetChild,
                                        View target, int nestedScrollAxes) {
@@ -31,6 +40,16 @@ public class CustomBehaviorTwo extends CoordinatorLayout.Behavior<View> {
                 target, nestedScrollAxes);
     }
 
+    /**
+     *
+     * @param coordinatorLayout
+     * @param child 子控件
+     * @param target 设置了behavior属性View
+     * @param dxConsumed
+     * @param dyConsumed
+     * @param dxUnconsumed
+     * @param dyUnconsumed
+     */
     @Override
     public void onNestedScroll(CoordinatorLayout coordinatorLayout, View child, View target,
                                int dxConsumed, int dyConsumed, int dxUnconsumed, int dyUnconsumed) {
@@ -40,6 +59,16 @@ public class CustomBehaviorTwo extends CoordinatorLayout.Behavior<View> {
         super.onNestedScroll(coordinatorLayout, child, target, dxConsumed, dyConsumed, dxUnconsumed, dyUnconsumed);
     }
 
+    /**
+     *
+     * @param coordinatorLayout
+     * @param child 子控件，
+     * @param target
+     * @param velocityX
+     * @param velocityY
+     * @param consumed
+     * @return
+     */
     @Override
     public boolean onNestedFling(CoordinatorLayout coordinatorLayout, View child, View target, float velocityX, float velocityY, boolean consumed) {
         // 快速滑动惯性移动（松开手指后还会有滑动）
