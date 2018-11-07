@@ -34,4 +34,5 @@ dependencies {
     //RecycleView适配器
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22'
     compile files('libs/nineoldandroids-2.4.0.jar')
+    compile 'com.jaeger.statusbarutil:library:1.4.0'
 }
