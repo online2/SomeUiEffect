@@ -4,14 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.mrchao.ui.MainActivity">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_view"
+        android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:overScrollMode="never"
         android:scrollbars="none"/>
+
+    <TextView
+        android:text="这是一堆内容这是一堆内容这是一堆内容这是一堆内容这是一堆内容这是一堆内容这是一堆内容这是一堆内容这是一堆内容"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
 
 
 </LinearLayout>

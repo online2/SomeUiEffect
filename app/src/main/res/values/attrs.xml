@@ -49,4 +49,9 @@
     <attr name="x_out" format="float"/>
     <attr name="y_in" format="float"/>
     <attr name="y_out" format="float"/>
+
+
+    <declare-styleable name="HeaderViewPager">
+        <attr name="hvp_topOffset" format="dimension"/>
+    </declare-styleable>
 </resources>

@@ -45,7 +45,10 @@ public class MainActivity extends BaseActivity {
         listItem.add("蚂蚁森林能量浮动效果");
         listItem.add("头部时差效果");
         listItem.add("布局视差效果");
+        listItem.add("布局视差效果2");
+
     }
+
 
     private void initView() {
         LinearLayoutManager manager = new LinearLayoutManager(mContext);
@@ -83,6 +86,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case 6:
                 intent = new Intent(mActivity, DiscrollActivity.class);
+                break;
+            case 7:
+                intent = new Intent(mActivity, com.mrchao.ui.headparallx2.HeadPeaxallActivity.class);
                 break;
         }
         startActivity(intent);

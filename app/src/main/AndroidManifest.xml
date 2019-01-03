@@ -23,6 +23,7 @@
         <activity android:name=".waterview.WaterViewActivity" />
         <activity android:name=".headparallx.HeadPeaxallActivity" />
         <activity android:name=".discrollview.DiscrollActivity"/>
+        <activity android:name=".headparallx2.HeadPeaxallActivity" />
     </application>
 
 </manifest>

@@ -14,7 +14,7 @@
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="400dp"
             app:expandedTitleGravity="center"
             app:layout_scrollFlags="scroll|snap">
 
